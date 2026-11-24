@@ -1,0 +1,21 @@
+question,gold_files,file_rank,phrase_rank,top1_source,top1_heading
+How do I run something after the response has gone out to the client?,background-tasks.md,3,,middleware.md,Middleware
+How can a web page hosted on another domain call my API from the browser?,cors.md,4,,security/first-steps.md,Security - First Steps
+How do I let users send me a file?,request-files.md,,,path-params.md,Path Parameters > Order matters
+How do I abort a request and return a 404 with a message?,handling-errors.md,4,4,frontend.md,Frontend > Custom 404 Page
+How can I test my endpoints without running a live server?,testing.md,3,,server-sent-events.md,Server-Sent Events (SSE) > What are Server-Sent Events?
+How do I make an endpoint return 201 Created?,response-status-code.md,1,1,response-status-code.md,Response Status Code > Shortcut to remember the names
+How do I limit how long a query string parameter can be?,query-params-str-validations.md,4,,query-params.md,Query Parameters > Defaults
+How do I declare the structure of the JSON a client posts to me?,body.md,,,path-params.md,Path Parameters > Order matters
+"How do I reuse shared logic, such as a database session, across many endpoints?",dependencies/index.md,1,,dependencies/index.md,"Dependencies > What is ""Dependency Injection"""
+How do I serve images and CSS from my app?,static-files.md,4,4,frontend.md,Frontend > Client-Side Routing
+How do I attach a debugger to my app?,debugging.md,1,,debugging.md,Debugging
+How do I read a custom HTTP header the client sent?,header-params.md,,,server-sent-events.md,Server-Sent Events (SSE) > Resuming with `Last-Event-ID`
+How do I run code on every incoming request before the endpoint handles it?,middleware.md,1,,middleware.md,Middleware
+How do I store data in a SQL database from my app?,sql-databases.md,1,1,sql-databases.md,SQL (Relational) Databases > Create the App with a Single Model > Create Models
+How do I restrict a URL path value to a fixed list of allowed options?,path-params.md,,,query-params.md,Query Parameters > Defaults
+How do I read cookies from the request?,cookie-params.md,5,5,query-param-models.md,Query Parameter Models > Summary
+How do I require a bearer token on an endpoint?,security/first-steps.md,1,,security/first-steps.md,Security - First Steps > The `password` flow
+How should passwords be stored safely?,security/oauth2-jwt.md,2,,sql-databases.md,SQL (Relational) Databases > Update the App with Multiple Models > Create Multiple Models > `HeroCreate` - the *data model* to create a hero
+How do I stop the response from leaking fields like the password?,extra-models.md|response-model.md,1,,extra-models.md,Extra Models > Multiple models
+"How do I run cleanup code after a dependency is used, like closing a database connection?",dependencies/dependencies-with-yield.md,1,1,dependencies/dependencies-with-yield.md,Dependencies with yield

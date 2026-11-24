@@ -1,0 +1,8 @@
+numpy
+rank_bm25
+streamlit
+pytest
+# Optional, for dense / hybrid retrieval and reranking (pulls in PyTorch; use Python 3.11 or 3.12):
+# sentence-transformers
+# Optional, for LLM answer generation:
+# anthropic

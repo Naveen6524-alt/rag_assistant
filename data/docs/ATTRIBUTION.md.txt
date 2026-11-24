@@ -1,0 +1,4 @@
+The markdown files in this folder are copied from the FastAPI documentation
+(docs/en/docs/tutorial) at https://github.com/fastapi/fastapi
+FastAPI is MIT licensed. Copyright (c) 2018 Sebastian Ramirez.
+Full licence text: https://github.com/fastapi/fastapi/blob/master/LICENSE

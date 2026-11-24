@@ -1,0 +1,20 @@
+{"question": "How do I run something after the response has gone out to the client?", "gold_files": ["background-tasks.md"], "gold_phrase": "add_task"}
+{"question": "How can a web page hosted on another domain call my API from the browser?", "gold_files": ["cors.md"], "gold_phrase": "CORSMiddleware"}
+{"question": "How do I let users send me a file?", "gold_files": ["request-files.md"], "gold_phrase": "UploadFile"}
+{"question": "How do I abort a request and return a 404 with a message?", "gold_files": ["handling-errors.md"], "gold_phrase": "HTTPException"}
+{"question": "How can I test my endpoints without running a live server?", "gold_files": ["testing.md"], "gold_phrase": "TestClient"}
+{"question": "How do I make an endpoint return 201 Created?", "gold_files": ["response-status-code.md"], "gold_phrase": "201"}
+{"question": "How do I limit how long a query string parameter can be?", "gold_files": ["query-params-str-validations.md"], "gold_phrase": "max_length"}
+{"question": "How do I declare the structure of the JSON a client posts to me?", "gold_files": ["body.md"], "gold_phrase": "BaseModel"}
+{"question": "How do I reuse shared logic, such as a database session, across many endpoints?", "gold_files": ["dependencies/index.md"], "gold_phrase": "Depends"}
+{"question": "How do I serve images and CSS from my app?", "gold_files": ["static-files.md"], "gold_phrase": "StaticFiles"}
+{"question": "How do I attach a debugger to my app?", "gold_files": ["debugging.md"], "gold_phrase": "uvicorn.run"}
+{"question": "How do I read a custom HTTP header the client sent?", "gold_files": ["header-params.md"], "gold_phrase": "Header"}
+{"question": "How do I run code on every incoming request before the endpoint handles it?", "gold_files": ["middleware.md"], "gold_phrase": "@app.middleware"}
+{"question": "How do I store data in a SQL database from my app?", "gold_files": ["sql-databases.md"], "gold_phrase": "SQLModel"}
+{"question": "How do I restrict a URL path value to a fixed list of allowed options?", "gold_files": ["path-params.md"], "gold_phrase": "Enum"}
+{"question": "How do I read cookies from the request?", "gold_files": ["cookie-params.md"], "gold_phrase": "Cookie"}
+{"question": "How do I require a bearer token on an endpoint?", "gold_files": ["security/first-steps.md"], "gold_phrase": "OAuth2PasswordBearer"}
+{"question": "How should passwords be stored safely?", "gold_files": ["security/oauth2-jwt.md"], "gold_phrase": "password hash"}
+{"question": "How do I stop the response from leaking fields like the password?", "gold_files": ["response-model.md", "extra-models.md"], "gold_phrase": "response_model"}
+{"question": "How do I run cleanup code after a dependency is used, like closing a database connection?", "gold_files": ["dependencies/dependencies-with-yield.md"], "gold_phrase": "yield"}
